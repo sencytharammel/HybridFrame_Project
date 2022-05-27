@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sency]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FacebookReport(failed)">
+    <parameter name="fname" value="Selenium"/>
+    <parameter name="bmonth" value="May"/>
+    <parameter name="password" value="selenium@123"/>
+    <parameter name="byear" value="2000"/>
+    <parameter name="sname" value="Testing"/>
+    <parameter name="dob" value="12"/>
+    <parameter name="renteremail" value="selenium@testing.com"/>
+    <parameter name="Url" value="https://m.facebook.com/"/>
+    <parameter name="email" value="selenium@testing.com"/>
+    <classes>
+      <class name="may16.FacebookParameter">
+        <methods>
+          <include name="setUP"/>
+          <include name="createAccount" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- may16.FacebookParameter -->
+    </classes>
+  </test> <!-- FacebookReport(failed) -->
+</suite> <!-- Failed suite [sency] -->

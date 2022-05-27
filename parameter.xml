@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="sency">
+<test name="FacebookReport">
+<parameter name="Url" value="https://m.facebook.com/"></parameter>
+<parameter name="fname" value="Selenium"></parameter>
+<parameter name="sname" value="Testing"></parameter>
+<parameter name="email" value="selenium@testing.com"></parameter>
+<parameter name="renteremail" value="selenium@testing.com"></parameter>
+<parameter name="password" value="selenium@123"></parameter>
+<parameter name="dob" value="12"></parameter>
+<parameter name="bmonth" value="May"></parameter>
+<parameter name="byear" value="2000"></parameter>
+
+<classes>
+<class name="may16.FacebookParameter"></class>
+</classes>
+</test>
+</suite>
+
+
+
+
